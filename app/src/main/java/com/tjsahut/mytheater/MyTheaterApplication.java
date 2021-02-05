@@ -24,7 +24,7 @@ public class MyTheaterApplication extends Application {
     public void onCreate() {
         super.onCreate();
 
-        String channelId = "com.example.mytheater.myApp";
+        String channelId = "com.example.mytheater";
         String description = "Notification d'accueuil";
 
         NotificationManager notificationManager = (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
