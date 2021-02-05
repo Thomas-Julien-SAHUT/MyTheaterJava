@@ -1,4 +1,4 @@
-package fr.neamar.cinetime.ui;
+package com.tjsahut.mytheater.ui;
 
 import java.io.InputStream;
 import java.io.OutputStream;

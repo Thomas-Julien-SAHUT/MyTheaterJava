@@ -1,4 +1,4 @@
-package fr.neamar.cinetime.ui;
+package com.tjsahut.mytheater.ui;
 
 import android.content.Context;
 import android.graphics.Bitmap;

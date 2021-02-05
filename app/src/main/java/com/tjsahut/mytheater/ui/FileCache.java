@@ -1,4 +1,4 @@
-package fr.neamar.cinetime.ui;
+package com.tjsahut.mytheater.ui;
 
 import android.annotation.TargetApi;
 import android.content.Context;
@@ -17,7 +17,7 @@ public class FileCache {
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.FROYO) {
                 cacheDir = new File(context.getExternalFilesDir(null), "poster");
             } else {
-                cacheDir = new File(android.os.Environment.getExternalStorageDirectory(), "fr.neamar.cinetime");
+                cacheDir = new File(android.os.Environment.getExternalStorageDirectory(), "com.tjsahut.mytheater");
             }
         else
             cacheDir = context.getCacheDir();
